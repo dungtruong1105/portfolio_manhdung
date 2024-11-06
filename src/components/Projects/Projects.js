@@ -9,8 +9,10 @@ import eight from "../../Assets/Projects/8.png";
 import one from "../../Assets/Projects/1.png";
 import six from "../../Assets/Projects/6.png";
 import seven from "../../Assets/Projects/7.png";
-import nine from "../../Assets/Projects/9.png";
 import { FaMedal } from "react-icons/fa";
+import nine from "../../Assets/Projects/9.png";
+import ten from "../../Assets/Projects/10.PNG";
+import eleven from "../../Assets/Projects/11.PNG";
 
 function Projects() {
   const [showModal, setShowModal] = useState(false);
@@ -116,7 +118,32 @@ function Projects() {
                 <FaMedal style={{ marginRight: "8px" }} />
                 Iranian Geometry Olympiad 8th
               </Button>
-
+              <Button
+                variant="outline-light"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  cursor: "pointer",
+                  width: "100%", // Chiều rộng 100% cho nút
+                }}
+                onClick={() => handleOpenModal(ten)}
+              >
+                <FaMedal style={{ marginRight: "8px" }} />
+                Hanoi math excellent students exam- Grade 9
+              </Button>
+              <Button
+                variant="outline-light"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  cursor: "pointer",
+                  width: "100%", // Chiều rộng 100% cho nút
+                }}
+                onClick={() => handleOpenModal(eleven)}
+              >
+                <FaMedal style={{ marginRight: "8px" }} />
+                Contest for excellent math students in Cau Giay district-Grade 9
+              </Button>
               <Button
                 variant="outline-light"
                 style={{
