@@ -44,6 +44,7 @@ function Projects() {
               imgPath={eight}
               isBlog={false}
               title="Gold Medal Certificate in HSGS Olympiad 2023"
+              description="The HSGS Olympiad is a prestigious contest attracting top students nationwide"
               demoLink=""
             />
           </Col>
@@ -71,17 +72,20 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
+              isYoutube={true}
               title="Exploration Creativity Contest 2024"
               description="The Special prize in Mathematic at Exploration Creativity Contest 2024 organized by VNU University of Science."
               ghLink="https://daibieunhandan.vn/hoc-sinh-duoc-trai-nghiem-thanh-nha-khoa-hoc-qua-cuoc-thi-kham-pha-va-sang-tao-toan-hoc-post372088.html"
               demoLink=""
+              youtubeLink="https://www.youtube.com/watch?v=qojY6g0sZvM"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={one}
               isBlog={false}
-              title="Gold Medal Certificate in HSGS Olympiad 2023"
+              title="INOVA Crotia 2024"
+              description=""
               demoLink=""
             />
           </Col>

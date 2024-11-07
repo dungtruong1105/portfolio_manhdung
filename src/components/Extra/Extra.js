@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Carousel } from "react-bootstrap";
 import one from "../../Assets/Extra/1.jpg";
 import two from "../../Assets/Extra/2.jpg";
@@ -25,11 +24,20 @@ import eighteen from "../../Assets/Extra/18.jpg";
 import nineteen from "../../Assets/Extra/19.jpg";
 import twenty from "../../Assets/Extra/20.jpg";
 
+import a from "../../Assets/Extra/a.jpg";
+import b from "../../Assets/Extra/b.jpg";
+import c from "../../Assets/Extra/c.jpg";
+import d from "../../Assets/Extra/d.jpg";
+import e from "../../Assets/Extra/e.jpg";
+
 function Extra() {
   return (
     <section>
+      {/* nckh10 */}
       <Container fluid className="project-section" id="work">
-        <h1 className="project-heading">Race raises funds</h1>
+        <h1 className="project-heading">
+          Scientific research "Exploration & Creativity 2023"
+        </h1>
         <Container>
           <Carousel>
             <Carousel.Item>
@@ -41,7 +49,7 @@ function Extra() {
                 }}
               >
                 <img
-                  src={one}
+                  src={a}
                   alt="Work 1"
                   style={{
                     maxHeight: "400px",
@@ -60,7 +68,7 @@ function Extra() {
                 }}
               >
                 <img
-                  src={two}
+                  src={b}
                   alt="Work 2"
                   style={{
                     maxHeight: "400px",
@@ -79,7 +87,7 @@ function Extra() {
                 }}
               >
                 <img
-                  src={three}
+                  src={c}
                   alt="Work 3"
                   style={{
                     maxHeight: "400px",
@@ -98,8 +106,27 @@ function Extra() {
                 }}
               >
                 <img
-                  src={four}
+                  src={d}
                   alt="Work 4"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={e}
+                  alt="Work 5"
                   style={{
                     maxHeight: "400px",
                     maxWidth: "600px",
@@ -110,9 +137,41 @@ function Extra() {
             </Carousel.Item>
           </Carousel>
         </Container>
+        <div
+          className="project-card-view"
+          s
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+          }}
+        >
+          <p>
+            Two research topics in mathematics for 10th and 11th grade have
+            shown me significant steps in the development of my personal
+            academic abilities. I had the opportunity to work with leading
+            mathematics professors, defending my thesis and presenting my work
+            before the scientific committee of VNU University of Science. It was
+            a journey that helped me learn and develop the mindset of a
+            researcher. The results achieved exceeded my expectations.
+          </p>
+          <p>
+            Grade 10: Contributed a chapter in the book "Exploration &
+            Creativity" by VNU Publisher
+          </p>
+          <p>
+            Grade 11: Special award for the topic "Some Methods for Solving
+            Combinatorial Problems." The results of the project are in the
+            process of being published in a 120-page book.
+          </p>
+        </div>
       </Container>
+      {/* gll */}
       <Container fluid className="project-section" id="work11">
-        <h1 className="project-heading">Global Links Singapore 2024</h1>
+        <h1 className="project-heading">
+          GLOBLE LEADERSHIP LINK (GLL) Singapore{" "}
+        </h1>
         <Container>
           <Carousel>
             <Carousel.Item>
@@ -193,73 +252,26 @@ function Extra() {
             </Carousel.Item>
           </Carousel>
         </Container>
+        <p
+          className="project-card-view"
+          s
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+          }}
+        >
+          We are shared the research projects to notable scientists around the
+          region about Developing an efficient AI-driven platform for disease
+          detection using X-ray image analysis and Improving diagnostic
+          accuracy, speed, and accessibility. We have the opportunity to connect
+          with international friends from many countries in the region. Visit
+          the top learning and scientific research environment in Singapore at
+          NTU University.
+        </p>
       </Container>
-      <Container fluid className="project-section" id="workSOS">
-        <h1 className="project-heading">
-          Mid-Autumn Festival at SOS Children's Village
-        </h1>
-        <Container>
-          <Carousel>
-            <Carousel.Item>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img
-                  src={nine}
-                  alt="Work 9"
-                  style={{
-                    maxHeight: "400px",
-                    maxWidth: "600px",
-                    objectFit: "cover",
-                  }}
-                />
-              </div>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img
-                  src={ten}
-                  alt="Work 10"
-                  style={{
-                    maxHeight: "400px",
-                    maxWidth: "600px",
-                    objectFit: "cover",
-                  }}
-                />
-              </div>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img
-                  src={eleven}
-                  alt="Work 11"
-                  style={{
-                    maxHeight: "400px",
-                    maxWidth: "600px",
-                    objectFit: "cover",
-                  }}
-                />
-              </div>
-            </Carousel.Item>
-          </Carousel>
-        </Container>
-      </Container>
+      {/* internship */}
       <Container fluid className="project-section" id="internship">
         <h1 className="project-heading">Internship</h1>
         <Container>
@@ -361,7 +373,193 @@ function Extra() {
             </Carousel.Item>
           </Carousel>
         </Container>
+        <p
+          className="project-card-view"
+          s
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+          }}
+        >
+          Two months of internship at MITALAB, a leading company in medical
+          equipment, provided me with many experiences. I learned about work
+          habits, professionalism, and gained an understanding of the basic
+          theories of testing machine systems. The role of an installation,
+          operation, and repair engineer helped me gain more direction for my
+          future career.
+        </p>
       </Container>
+      {/* sos */}
+      <Container fluid className="project-section" id="workSOS">
+        <h1 className="project-heading">
+          Mid-Autumn Festival at SOS Children's Village
+        </h1>
+        <Container>
+          <Carousel>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={nine}
+                  alt="Work 9"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={ten}
+                  alt="Work 10"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={eleven}
+                  alt="Work 11"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+          </Carousel>
+        </Container>
+      </Container>
+      {/* chay gay quy */}
+      <Container fluid className="project-section" id="work">
+        <h1 className="project-heading">Race raises funds</h1>
+        <Container>
+          <Carousel>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={one}
+                  alt="Work 1"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={two}
+                  alt="Work 2"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={three}
+                  alt="Work 3"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={four}
+                  alt="Work 4"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+          </Carousel>
+        </Container>
+        <p
+          className="project-card-view"
+          s
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+          }}
+        >
+          "RUN FOR LIFE, RUN FOR CHILDREN" is my aspiration to contribute my
+          part to a better life. My love for running has inspired me to share
+          this with friends and family to cultivate a good habit, which also
+          serves as a foundation to raise funds to support less fortunate
+          patients and join hands with the community.
+        </p>
+      </Container>
+
+      {/* chay */}
       <Container fluid className="project-section" id="running-events">
         <h1 className="project-heading">Running Events Participated</h1>
         <Container>
@@ -444,6 +642,19 @@ function Extra() {
             </Carousel.Item>
           </Carousel>
         </Container>
+        <p
+          className="project-card-view"
+          s
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+          }}
+        >
+          My daily habits are inspired by my mother. I run for health and hope
+          to spread the habit of running to the community.
+        </p>
       </Container>
     </section>
   );
