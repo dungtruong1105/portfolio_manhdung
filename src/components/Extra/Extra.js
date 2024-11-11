@@ -1,8 +1,10 @@
 import { Container, Carousel } from "react-bootstrap";
 import one from "../../Assets/Extra/1.jpg";
+import one1 from "../../Assets/Extra/run.jpg";
 import two from "../../Assets/Extra/2.jpg";
 import three from "../../Assets/Extra/3.jpg";
 import four from "../../Assets/Extra/4.jpg";
+import gll from "../../Assets/Extra/gll.PNG";
 
 import five from "../../Assets/Extra/5.jpg";
 import six from "../../Assets/Extra/6.jpg";
@@ -11,7 +13,9 @@ import eight from "../../Assets/Extra/8.jpg";
 
 import nine from "../../Assets/Extra/9.JPG";
 import ten from "../../Assets/Extra/10.jpg";
+import inten from "../../Assets/Extra/inten.jpg";
 import eleven from "../../Assets/Extra/11.jpg";
+import eleven1 from "../../Assets/Extra/111.jpg";
 
 import twelve from "../../Assets/Extra/12.JPEG";
 import thirteen from "../../Assets/Extra/13.JPEG";
@@ -250,6 +254,25 @@ function Extra() {
                 />
               </div>
             </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={gll}
+                  alt="Work 8"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
           </Carousel>
         </Container>
         <p
@@ -371,6 +394,25 @@ function Extra() {
                 />
               </div>
             </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={inten}
+                  alt="Work 16"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
           </Carousel>
         </Container>
         <p
@@ -446,6 +488,25 @@ function Extra() {
               >
                 <img
                   src={eleven}
+                  alt="Work 11"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={eleven1}
                   alt="Work 11"
                   style={{
                     maxHeight: "400px",
@@ -531,6 +592,25 @@ function Extra() {
                 <img
                   src={four}
                   alt="Work 4"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={one1}
+                  alt="Work 1"
                   style={{
                     maxHeight: "400px",
                     maxWidth: "600px",
