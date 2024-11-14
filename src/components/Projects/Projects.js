@@ -85,7 +85,7 @@ function Projects() {
               imgPath={one}
               isBlog={false}
               title="INOVA Crotia 2024"
-              description=""
+              description="The OilSweep project creates an autonomous robot to collect marine oil spills efficiently. Using an Arduino for motor control, a pump motor for oil extraction, and RF for remote communication, the robot detects and gathers oil on water, minimizing environmental impact."
               demoLink=""
             />
           </Col>
