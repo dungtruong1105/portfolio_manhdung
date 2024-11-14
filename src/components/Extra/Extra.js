@@ -30,6 +30,12 @@ import eighteen from "../../Assets/Extra/18.jpg";
 import nineteen from "../../Assets/Extra/19.jpg";
 import twenty from "../../Assets/Extra/20.jpg";
 
+import ex1 from "../../Assets/Extra/ex1.jpg";
+import ex2 from "../../Assets/Extra/ex2.jpg";
+import ex3 from "../../Assets/Extra/ex3.jpg";
+import ex4 from "../../Assets/Extra/ex4.jpg";
+
+
 import a from "../../Assets/Extra/a.jpg";
 import b from "../../Assets/Extra/b.jpg";
 import c from "../../Assets/Extra/c.jpg";
@@ -38,7 +44,7 @@ import e from "../../Assets/Extra/e.jpg";
 import runrun from "../../Assets/Extra/runrun.jpg";
 import run1 from "../../Assets/Extra/run1.jpg";
 import run2 from "../../Assets/Extra/run2.jpg";
-import robot1 from "../../Assets/Extra/robot1.png"
+import robot1 from "../../Assets/Extra/robot1.png";
 
 function Extra() {
   return (
@@ -180,7 +186,7 @@ function Extra() {
       {/* Khac */}
       <Container fluid className="project-section" id="work">
         <h1 className="project-heading">
-        Robot for Supporting Tuberculosis Patients
+          Robot for Supporting Tuberculosis Patients
         </h1>
         <Container>
           <Carousel>
@@ -373,6 +379,107 @@ function Extra() {
             <IoIosLink />
             Link
           </Button>
+        </p>
+      </Container>
+      {/*1411 */}
+      <Container fluid className="project-section" id="work11">
+        <h1 className="project-heading">
+          Extracurricular Activity "Connecting with Love"
+        </h1>
+        <Container>
+          <Carousel>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={ex1}
+                  alt="Work 5"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={ex2}
+                  alt="Work 6"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={ex3}
+                  alt="Work 7"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={ex4}
+                  alt="Work 8"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+
+          </Carousel>
+        </Container>
+        <p
+          className="project-card-view"
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+            display: "flex",
+            flexDirection: "column", // Sắp xếp theo chiều dọc
+            alignItems: "center", // Căn giữa theo chiều ngang
+          }}
+        >
+The "Connecting with Love" program involved gift-giving at Social Protection Center No. 2 in Hanoi, supporting the elderly, disabled, and those living alone. Scholarships with school supplies were given to disadvantaged students at Vien An Secondary School to encourage their studies. Additionally, the program included a tribute ceremony at Vien An Martyrs' Cemetery to honor and remember the heroes who sacrificed for the country.
         </p>
       </Container>
       {/* internship */}
