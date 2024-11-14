@@ -1,4 +1,6 @@
 import { Container, Carousel } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { IoIosLink } from "react-icons/io";
 import one from "../../Assets/Extra/1.jpg";
 import one1 from "../../Assets/Extra/run.jpg";
 import two from "../../Assets/Extra/2.jpg";
@@ -33,6 +35,10 @@ import b from "../../Assets/Extra/b.jpg";
 import c from "../../Assets/Extra/c.jpg";
 import d from "../../Assets/Extra/d.jpg";
 import e from "../../Assets/Extra/e.jpg";
+import runrun from "../../Assets/Extra/runrun.jpg";
+import run1 from "../../Assets/Extra/run1.jpg";
+import run2 from "../../Assets/Extra/run2.jpg";
+import robot1 from "../../Assets/Extra/robot1.png"
 
 function Extra() {
   return (
@@ -171,6 +177,68 @@ function Extra() {
           </p>
         </div>
       </Container>
+      {/* Khac */}
+      <Container fluid className="project-section" id="work">
+        <h1 className="project-heading">
+        Robot for Supporting Tuberculosis Patients
+        </h1>
+        <Container>
+          <Carousel>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={robot1}
+                  alt="Work 1"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+          </Carousel>
+        </Container>
+        <div
+          className="project-card-view"
+          s
+          style={{
+            width: "50%",
+            textAlign: "center",
+            margin: "0 auto",
+            marginTop: "30px",
+          }}
+        >
+          <p>
+            Developed an autonomous robot to support healthcare staff in
+            tuberculosis treatment settings, reducing infection risk and
+            enhancing care efficiency. The robot can transport essential items,
+            automatically disinfect patient rooms, remotely monitor patient
+            areas, and track environmental conditions like dust and humidity.
+            Key technologies include Raspberry Pi 4, ESP32, and various air
+            quality sensors. This project demonstrates the integration of smart
+            robotics and IoT solutions in healthcare, supporting safe and
+            efficient patient management.
+          </p>
+          <Button
+            variant="primary"
+            href={"https://youtu.be/9RkQbv-eAc4"}
+            target="_blank"
+            style={{
+              marginTop: "20px",
+            }}
+          >
+            <IoIosLink />
+            Link
+          </Button>
+        </div>
+      </Container>
       {/* gll */}
       <Container fluid className="project-section" id="work11">
         <h1 className="project-heading">
@@ -277,12 +345,14 @@ function Extra() {
         </Container>
         <p
           className="project-card-view"
-          s
           style={{
             width: "50%",
             textAlign: "center",
             margin: "0 auto",
             marginTop: "30px",
+            display: "flex",
+            flexDirection: "column", // Sắp xếp theo chiều dọc
+            alignItems: "center", // Căn giữa theo chiều ngang
           }}
         >
           We are shared the research projects to notable scientists around the
@@ -292,6 +362,17 @@ function Extra() {
           with international friends from many countries in the region. Visit
           the top learning and scientific research environment in Singapore at
           NTU University.
+          <Button
+            variant="primary"
+            href={"https://youtu.be/zhPlJOtB_O8?si=Ff9uvkBFpdMLj3pE"}
+            target="_blank"
+            style={{
+              marginTop: "20px", // Thêm khoảng cách giữa nút và chữ
+            }}
+          >
+            <IoIosLink />
+            Link
+          </Button>
         </p>
       </Container>
       {/* internship */}
@@ -533,6 +614,44 @@ function Extra() {
                 }}
               >
                 <img
+                  src={run1}
+                  alt="Work 1"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={runrun}
+                  alt="Work 1"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
                   src={one}
                   alt="Work 1"
                   style={{
@@ -610,6 +729,25 @@ function Extra() {
               >
                 <img
                   src={one1}
+                  alt="Work 1"
+                  style={{
+                    maxHeight: "400px",
+                    maxWidth: "600px",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={run2}
                   alt="Work 1"
                   style={{
                     maxHeight: "400px",
